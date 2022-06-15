@@ -1,0 +1,100 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family: serif;
+    line-height: 1.7;
+}
+
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(50, 170, 39);
+    align-items: center;
+    padding-left: 3vw;
+}
+.mebu_group{
+    display: flex;
+    margin-right: 3vw;
+}
+.menu_item{
+    margin-left: 2vw;
+}
+
+
+/*main*/
+.main{
+    width: 100vw;
+    height: 93vh;
+    background-image: url(./images/main.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.main_content{
+    height: 93vh;
+    background-color: rgba(0,0,0,0.6);
+}
+
+h1{
+    font-size: 8vw;
+    color: white;
+    text-align: center;
+    padding-top: 42vh;
+}
+h2{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+/*sub*/
+.sub{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+}
+.sub_flexbox1,
+.sub_flexbox2,
+.sub_flexbox3{
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sub_content{
+    height: 40vh;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+}
+.sub_content p{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 16vh;
+}
+.sub_flexbox1{
+    background-image: url(images/sub_img1.png);
+    width: 33.25vw;
+}
+.sub_flexbox2{
+    background-image: url(images/sub_img2.png);
+    width: 33.5vw;
+}
+.sub_flexbox3{
+    background-image: url(images/sub_img3.webp);
+    width: 33.2vw;
+}
+
+/*article*/
+article{
+    width: 100vw;
+    padding-top: 5vh;
+}
+article p{
+    text-align: center;
+}
