@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family: serif;
+    line-height: 1.7;
+}
+
+/*----------------------------------------------------
+main
+----------------------------------------------------*/
+
+/*--------------------------------------
+mach
+--------------------------------------*/
+.mach{
+    display: flex;
+}
+
+/*---------------------------------
+team_container
+---------------------------------*/
+/*--------------------------
+team
+--------------------------*/
+.team{
+    display: flex;
+    height: 2vw;
+}
+.team_name{
+    width: 8vw;
+    height: 1.5vw;
+    margin-top: 0.25vw;
+    background-color: thistle;
+}
+
+
+/*---------------------
+line_container
+---------------------*/
+.hr_line_container, .ver_line_container{
+    display: flex;
+    height: 1vw;
+}
+.hr_line_container div,.ver_line_container div{
+    width: 3vw;
+}
+.hr_line_bottom{
+    border-bottom: 2px solid #000;
+}
+.hr_line_top{
+    border-top: 2px solid #000;
+}
+.ver_line{
+    border-right: 2px solid #000;
+}
